@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pebbles-soreyuke (0.1.1)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    sinatra (1.4.0.d)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    slim (1.3.6)
+      temple (~> 0.5.5)
+      tilt (~> 1.3.3)
+    temple (0.5.5)
+    tilt (1.3.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pebbles-soreyuke
+  sinatra (= 1.4.0.d)
+  slim
