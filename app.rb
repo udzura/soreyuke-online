@@ -12,6 +12,10 @@ helpers do
   end
 end
 
+configure :production do
+  set :server, :puma
+end
+
 get '/' do
   slim :index
 end
